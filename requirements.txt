@@ -1,0 +1,29 @@
+# 基本依存関係
+requests>=2.28.0
+typing-extensions>=4.0.0
+
+# LLMライブラリ（選択）
+# OpenAI API用
+# openai>=1.0.0
+
+# Hugging Face Transformers用
+# torch>=1.13.0
+# transformers>=4.21.0
+# accelerate>=0.20.0
+# bitsandbytes>=0.39.0  # 量子化用
+
+# ollama Python client用
+# ollama>=0.1.0
+
+# RAG/ベクトル検索用（オプション）
+# sentence-transformers>=2.2.0
+# faiss-cpu>=1.7.0
+# chromadb>=0.3.0
+
+# PDF処理用（オプション）
+# PyPDF2>=3.0.0
+# pdfplumber>=0.7.0
+
+# Excel処理用（オプション）
+# pandas>=1.5.0
+# openpyxl>=3.0.0
